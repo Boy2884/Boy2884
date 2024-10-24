@@ -86,7 +86,7 @@ bot.on('message', async (msg) => {
           validateStatus: undefined,
           responseType: "arraybuffer",
           headers: { 
-            Authorization: `Bearer sk-Qu9CgVWl7dKvLEYF2Buo67W7XuRkhzx9xKBgBzenNKbBExpu`, 
+            Authorization: `Bearer sk-96zlSE5pNjuPVp7c2stiN8pO6rBbUUkLitUiOQQ0oPWMwoGi`, 
             Accept: "image/*" 
           },
         },
