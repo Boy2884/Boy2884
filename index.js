@@ -12,13 +12,7 @@ const apiKey = 'sk-Qu9CgVWl7dKvLEYF2Buo67W7XuRkhzx9xKBgBzenNKbBExpu';
 // Telegram botini yaratamiz
 const bot = new TelegramBot(token, { polling: true });
 
-bot.onText(/\/start/, (msg) => {
-  const chatId = msg.chat.id;
-  const userId = msg.from.id;
 
-  // Foydalanuvchiga ismni kiritishni so'raymiz
-  bot.sendMessage(chatId, "Salom! , tasvirni tasvirlang kiriting:");
-});
 
 // Foydalanuvchi botga xabar yuborganida ishlaydigan funksiya
 bot.on('message', async (msg) => {
